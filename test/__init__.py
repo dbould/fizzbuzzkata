@@ -1,1 +1,0 @@
-from FizzBuzzKata import Kata
