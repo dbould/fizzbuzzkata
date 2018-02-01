@@ -1,7 +1,7 @@
 from FizzBuzzKata import Kata
 
 
-class Test3ReturnsFizz:
-    def test_answer(self):
-        myKata = Kata()
-        assert myKata.run(3) == "Fizz"
+class TestKata:
+    def test_data_gets_returned(self):
+        my_kata = Kata()
+        assert my_kata.run(3) == "Fizz"
