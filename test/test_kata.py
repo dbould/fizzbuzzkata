@@ -7,6 +7,10 @@ class TestKata:
         my_kata = Kata()
         assert my_kata.run(3) == "Fizz"
 
+    def test_six_prints_fizz(self):
+        my_kata = Kata()
+        assert my_kata.run(6) == "Fizz"
+
     def test_number_gets_returned(self):
         my_kata = Kata()
         assert my_kata.run(4) == 4
@@ -19,3 +23,10 @@ class TestKata:
         my_kata = Kata()
         assert my_kata.run(-5) == "Bad input!"
 
+    def test_5_prints_buzz(self):
+        my_kata = Kata()
+        assert my_kata.run(5) == "Buzz"
+
+    def test_10_prints_buzz(self):
+        my_kata = Kata()
+        assert my_kata.run(5) == "Buzz"
