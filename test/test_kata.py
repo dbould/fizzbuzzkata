@@ -1,7 +1,7 @@
 from FizzBuzzKata import Kata
 
 
-class TestKata:
+class TestDataGetsReturned:
     def test_answer(self):
         myKata = Kata()
-        assert myKata.helloWorld() == "Hello World!"
+        assert myKata.run(3) == "Fizz"
