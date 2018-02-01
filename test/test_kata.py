@@ -10,3 +10,7 @@ class TestKata:
     def test_number_gets_returned(self):
         my_kata = Kata()
         assert my_kata.run(4) == 4
+
+    def test_zero_bad_input(self):
+        my_kata = Kata()
+        assert my_kata.run(0) == "Bad input!"
