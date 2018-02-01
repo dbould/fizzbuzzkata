@@ -30,3 +30,11 @@ class TestKata:
     def test_10_prints_buzz(self):
         my_kata = Kata()
         assert my_kata.run(5) == "Buzz"
+
+    def test_15_prints_fizzbuzz(self):
+        my_kata = Kata()
+        assert my_kata.run(15) == "FizzBuzz"
+
+    def test_30_prints_fizzbuzz(self):
+        my_kata = Kata()
+        assert my_kata.run(30) == "FizzBuzz"

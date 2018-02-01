@@ -1,4 +1,6 @@
 # fizzbuzzkata
+First Python project
+
 ## Rules
 For a given natural number greater than zero return:
 
