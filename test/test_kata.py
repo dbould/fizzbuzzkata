@@ -3,19 +3,19 @@ from FizzBuzzKata import Kata
 
 class TestKata:
 
-    def test_three_prints_fizz(self):
+    def test_3_prints_fizz(self):
         my_kata = Kata()
         assert my_kata.run(3) == "Fizz"
 
-    def test_six_prints_fizz(self):
+    def test_6_prints_fizz(self):
         my_kata = Kata()
         assert my_kata.run(6) == "Fizz"
 
-    def test_number_gets_returned(self):
+    def test_4_gets_returned(self):
         my_kata = Kata()
         assert my_kata.run(4) == 4
 
-    def test_zero_bad_input(self):
+    def test_0_bad_input(self):
         my_kata = Kata()
         assert my_kata.run(0) == "Bad input!"
 
