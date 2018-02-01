@@ -14,3 +14,8 @@ class TestKata:
     def test_zero_bad_input(self):
         my_kata = Kata()
         assert my_kata.run(0) == "Bad input!"
+
+    def test_minus_5_bad_input(self):
+        my_kata = Kata()
+        assert my_kata.run(-5) == "Bad input!"
+
