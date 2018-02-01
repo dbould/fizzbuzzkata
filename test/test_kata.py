@@ -1,4 +1,4 @@
-from FizzBuzzKata.Kata import Kata
+from FizzBuzzKata import Kata
 
 
 class TestKata:
